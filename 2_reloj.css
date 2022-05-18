@@ -1,0 +1,34 @@
+#reloj {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes giro {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+#segundos {
+    height: 100%;
+    width: 3px;
+    background-color: grey;
+    animation: giro 60s linear infinite;
+}
+
+#minutos {
+    height: 85%;
+    width: 30x;
+    background-color: grey;
+    margin-top: 75px;
+    animation: giro 360
+}
+
+#horas {
+    width: 3px;
+    height: 30%;
+    background-color: black;
+    margin-top: 100px;
+}

@@ -1,0 +1,47 @@
+body {
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 166);
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tarjeta{
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+@keyframes color {
+    0% {background-color: red;}
+    25% {background-color: orange;}
+    50% {background-color: yellow;}
+    75% {background-color: green;}
+    100% {background-color: blue;}
+}
+.gif {
+    width: 95%;
+    height: 75%;
+    animation: color 1.5s linear infinite;
+}
+
+.contenedor .tarjeta{
+    transform: skew(-25deg);
+}
+.contenedor div:nth-child(even){
+    transform: skew(10deg);
+}
+
+.tarjeta p {
+    text-align: center;
+}
+
+.tarjeta:hover {
+    width: 300px;
+    height: auto;
+}
+

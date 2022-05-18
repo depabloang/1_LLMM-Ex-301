@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(233, 78, 233);
+}
+
+header {
+    background-color: rgb(104, 104, 248);
+    border-bottom: 4px solid black;
+}
+
+
+header > h2, h3 {
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.tarjeta {
+    background-color: aqua;
+    border: 1px solid lightgray
+}

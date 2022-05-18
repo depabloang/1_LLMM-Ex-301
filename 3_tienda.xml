@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="3_tienda.xsl" type="text/xsl"?>
-
 <tienda>
              
     <title>Tienda Online</title>
     <encabezado>Bienvenid@s a mi tienda</encabezado>
     <descripcion>Esto es una tienda online que vende productos a través de internet</descripcion>
-             
+
+    <producto>
+        <titulo>Jamón</titulo>
+        <texto>Jamón origen Castilla La Mancha</texto>
+        <precio>32,3€</precio>    
+    </producto>
+
+    <producto>
+        <titulo>Queso</titulo>
+        <texto>Queso origen Asturias</texto>
+        <precio>12,3€</precio>    
+    </producto>
+
+    <producto>
+        <titulo>Tomate</titulo>
+        <texto>Tomate origen Andalucía</texto>
+        <precio>2,3€</precio>    
+    </producto>
+
+    <producto>
+        <titulo>Aceite de oliva</titulo>
+        <texto>Aceite de oliva origen Andalucía</texto>
+        <precio>7,65€</precio>
+    </producto>    
 </tienda>
